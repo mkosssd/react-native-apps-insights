@@ -1,0 +1,24 @@
+{
+  "name": "@ashokdevatwal/react-native-apps-insights",
+  "version": "1.0.3",
+  "description": "App Install Referrer with facebook app install campaign",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashokdevatwal/react-native-apps-insights"
+  },
+  "keywords": [
+    "react-native-component",
+    "react-component",
+    "react-native"
+    "app install tracking"
+  ],
+  "author": "Er. Ashok Devatwal",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "*"
+  }
+}
