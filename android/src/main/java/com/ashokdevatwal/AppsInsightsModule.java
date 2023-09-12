@@ -13,6 +13,7 @@ import com.facebook.react.bridge.Promise;
 import com.facebook.react.modules.core.DeviceEventManagerModule;
 
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Iterator;
 import java.util.Date;
 import java.text.SimpleDateFormat;
