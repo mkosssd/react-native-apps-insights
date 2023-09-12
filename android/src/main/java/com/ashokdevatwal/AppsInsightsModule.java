@@ -206,9 +206,6 @@ public class AppsInsightsModule extends ReactContextBaseJavaModule {
         // Append URL Parameters
         parseUrlParams( installReferrer, parsedInstallReferrerInfo );
 
-		// String urlEncodedCiphertext = "%7B%22app%22%3A0%2C%22t%22%3A1694258301%2C%22source%22%3A%7B%22data%22%3A%22afe56cf6228c6ea8c79da49186e718e92a579824596ae1d0d4d20d7793dca797bd4034ccf467bfae5c79a3981e7a2968c41949237e2b2db678c1c3d39c9ae564c5cafd52f2b77a3dc77bf1bae063114d0283b97417487207735da31ddc1531d5645a9c3e602c195a0ebf69c272aa5fda3a2d781cb47e117310164715a54c7a5a032740584e2789a7b4e596034c16425139a77e507c492b629c848573c714a03a2e7d25b9459b95842332b460f3682d19c35dbc7d53e3a51e0497ff6a6cbb367e760debc4194ae097498108df7b95eac2fa9bac4320077b510be3b7b823248bfe02ae501d9fe4ba179c7de6733c92bf89d523df9e31238ef497b9db719484cbab7531dbf6c5ea5a8087f95d59f5e4f89050e0f1dc03e464168ad76a64cca64b79%22%2C%22nonce%22%3A%20%22b7203c6a6fb633d16e9cf5c1%22%7D%7D";
-		// parsedInstallReferrerInfo.putString("utm_content", urlEncodedCiphertext);
-
         if( parsedInstallReferrerInfo.hasKey("utm_content") ) {
         	HashMap<String, Object> parsedInstallReferrerInfoHashMap = writableMapToHashMap( parsedInstallReferrerInfo );
         	parsedInstallReferrerInfoHashMap = facebookAppInstallCampaign.campaignMetaData( parsedInstallReferrerInfoHashMap );
