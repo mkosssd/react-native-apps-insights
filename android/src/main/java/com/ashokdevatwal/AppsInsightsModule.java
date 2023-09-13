@@ -231,6 +231,10 @@ public class AppsInsightsModule extends ReactContextBaseJavaModule {
 			    // You can add more cases for other types if needed
 			}
         }
+		
+		if( parsedInstallReferrerInfo.hasKey("campaign_name") ) {
+			parsedInstallReferrerInfo.putString("utm_campaign",  parsedInstallReferrerInfo.getString("campaign_name") );
+		}
 
         return parsedInstallReferrerInfo;
     }

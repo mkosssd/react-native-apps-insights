@@ -71,7 +71,7 @@ AppsInsights.config({
   "installVersion": "3.0.8",
   "referrerClickTimestampSeconds": "1970-01-01 05:30:00",
   "referrerClickTimestampServerSeconds": "1970-01-01 05:30:00",
-  "utm_campaign": "fb4a",
+  "utm_campaign": "Adams Test Campaign",
   "utm_source": "apps.facebook.com",
   "utm_content": "%7B%22app%22%3A0%2C%22t%22%3[...long Hash....]301%2C%22source%22%3Anull%7D" // encrypted campaign metadata
 }
