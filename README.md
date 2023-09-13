@@ -67,7 +67,7 @@ AppsInsights.config({
   "googlePlayInstant": "false",
   "installBeginTimestampSeconds": "2023-09-08 11:28:23",
   "installBeginTimestampServerSeconds": "2023-09-08 11:28:21",
-  "installReferrer": "utm_source=google-play&utm_medium=organic",
+  "installReferrer": "utm_source=apps.facebook.com&utm_campaign=fb4a",
   "installVersion": "3.0.8",
   "referrerClickTimestampSeconds": "1970-01-01 05:30:00",
   "referrerClickTimestampServerSeconds": "1970-01-01 05:30:00",
