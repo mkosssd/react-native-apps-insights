@@ -57,7 +57,7 @@ https://play.google.com/store/apps/details?id=com.example.application&referrer=u
 - Decryption key is required for facebook app install campaign.
 - Get decryption key from your facebook developer account. Here is [guide to get decryption key](https://developers.facebook.com/docs/app-ads/install-referrer/)  
 
-### If App Installed Direct From Google Play Store 
+### If App Installed From Google Play Store 
 ```json
 {
   "googlePlayInstant": "false",
@@ -80,6 +80,21 @@ https://play.google.com/store/apps/details?id=com.example.application&referrer=u
  - `referrerClickTimestampSeconds`: Timestamp of when user clicked on URL which redirected him/her to Play Store to download your app
  - `referrerClickTimestampServerSeconds`: Server timestamp of when user clicked on URL which redirected him/her to Play Store to download your app
 
+### If App Installed From Google Play Store Ads
+
+```json
+{
+  "gclid": "EAIaIQobChMIrKLVotP2gIVhFj9Ch3eDwNhEAAYASAAEgIrDvD_BwE",
+  "installBeginTimestampServerSeconds": "2023-09-19 16:34:53",
+  "referrerClickTimestampSeconds": "2023-09-19 16:33:06",
+  "installBeginTimestampSeconds": "2023-09-19 16:34:54",
+  "installVersion": "1.9.6",
+  "referrerClickTimestampServerSeconds": "2023-09-19 16:33:06",
+  "googlePlayInstant": "false",
+  "installReferrer": "gclid=EAIaIQobChMIrKLVotP2gIVhFj9Ch3eDwNhEAAYASAAEgIrDvD_BwE"
+}
+```
+
 ### If App Installed From Facebook App Install Campaign Link
 ```json
 {
@@ -96,7 +111,7 @@ https://play.google.com/store/apps/details?id=com.example.application&referrer=u
   "installBeginTimestampSeconds": "2023-09-08 11:28:23",
   "installBeginTimestampServerSeconds": "2023-09-08 11:28:21",
   "installReferrer": "utm_source=apps.facebook.com&utm_campaign=fb4a&utm_content=%7B%22app%22%3A0%2C%22t%22%3[...long Hash....]301%2C%22source%22%3Anull%7D",
-  "installVersion": "3.0.8",
+  "installVersion": "1.9.6",
   "referrerClickTimestampSeconds": "1970-01-01 05:30:00",
   "referrerClickTimestampServerSeconds": "1970-01-01 05:30:00",
   "utm_campaign": "Adams Test Campaign",
