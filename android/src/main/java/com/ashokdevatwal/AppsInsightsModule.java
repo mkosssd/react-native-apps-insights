@@ -230,6 +230,16 @@ public class AppsInsightsModule extends ReactContextBaseJavaModule {
 			    }
 			    // You can add more cases for other types if needed
 			}
+
+        } else if( parsedInstallReferrerInfo.hasKey("gclid") ) {
+        	
+        	String utm_source   = "google-ads"; 
+        	String utm_campaign = "";
+        	String utm_medium   = "CPC";
+
+        	parsedInstallReferrerInfo.putString("utm_source", utm_source );
+        	parsedInstallReferrerInfo.putString("utm_campaign", utm_campaign );
+        	parsedInstallReferrerInfo.putString("utm_medium", utm_medium );
         }
 		
 		if( parsedInstallReferrerInfo.hasKey("campaign_name") ) {
