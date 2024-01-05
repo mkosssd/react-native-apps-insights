@@ -1,5 +1,10 @@
 # react-native-apps-insights
 
+![GitHub License](https://img.shields.io/github/license/ashokdevatwal/react-native-apps-insights)
+![GitHub all releases](https://img.shields.io/github/downloads/ashokdevatwal/react-native-apps-insights/total)
+![npm](https://img.shields.io/npm/v/%40ashokdevatwal%2Freact-native-apps-insights)
+
+
 ## Install 
 
 The **recommended** way to install the latest version of react-native-apps-insights is by running the command below:
