@@ -1,7 +1,7 @@
 # React Native AppsInsights
 
 ![GitHub License](https://img.shields.io/github/license/ashokdevatwal/react-native-apps-insights)
-![GitHub all releases](https://img.shields.io/github/downloads/ashokdevatwal/react-native-apps-insights/total)
+![npm](https://img.shields.io/npm/dw/%40ashokdevatwal/react-native-apps-insights)
 ![npm](https://img.shields.io/npm/v/%40ashokdevatwal%2Freact-native-apps-insights)
 ![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/ashokdevatwal/react-native-apps-insights/master)
 
