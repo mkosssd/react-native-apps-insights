@@ -1,4 +1,4 @@
-# react-native-apps-insights
+# React Native AppsInsights
 
 ![GitHub License](https://img.shields.io/github/license/ashokdevatwal/react-native-apps-insights)
 ![GitHub all releases](https://img.shields.io/github/downloads/ashokdevatwal/react-native-apps-insights/total)
